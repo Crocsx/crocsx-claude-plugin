@@ -1,0 +1,13 @@
+{
+  "name": "crocsx",
+  "owner": {
+    "name": "Giacomini Federico"
+  },
+  "plugins": [
+    {
+      "name": "crocsx-claude-plugin",
+      "source": "./",
+      "description": "Project-agnostic tx-* workflow skills; project facts come from each repo's .claude/tx-shared/project.md"
+    }
+  ]
+}
