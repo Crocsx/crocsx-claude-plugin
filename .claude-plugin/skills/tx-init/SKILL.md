@@ -14,7 +14,7 @@ You produce three things:
 
 1. **`AGENTS.md`** — one at the repo root, one in each project or package. Root explains the whole; each leaf explains itself.
 2. **`CLAUDE.md`** — next to each `AGENTS.md`, a pointer file, nothing else.
-3. **`.claude/tx-shared/project.md`** — the single project-fact file `tx-task`, `tx-review`, `tx-draft`, `tx-split`, and `tx-testme` all read.
+3. **`.claude/tx-shared/project.md`** — the single project-fact file `tx-task`, `tx-review`, `tx-pr`, `tx-split`, `tx-testme`, and `tx-testing` all read.
 
 **The hard rule for all of it: every statement is evidence-backed.** You are reading this repo, not describing a repo you have seen before. Anything you cannot point at a file for is `TODO:` with a one-line question — never a plausible guess. A confident wrong `AGENTS.md` is worse than no `AGENTS.md`, because five commands will then cite it as law.
 
@@ -156,7 +156,7 @@ What goes where:
 - **Guidelines checklist** — the enforceable rules, named, grouped by side. `tx-review` cites these by name and is instructed not to invent any that are not here, so a thin list means a weak review. Each rule: name, one line, and where it is enforced or documented.
 - **Commit convention** — the observed format, plus the instruction to verify against `git log --oneline -20`.
 - **Ticketing** — tracker, how to derive the key from the branch (including case normalisation, e.g. `feat/roms-4740` → `ROMS-4740`), PR template path.
-- **Domain edge cases** — the product-specific failure modes. Used by `tx-review` for UI checks and `tx-draft` for evidence lists.
+- **Domain edge cases** — the product-specific failure modes. Used by `tx-review` for UI checks and `tx-pr` for evidence lists.
 
 Head the file with: *"Single source of project-specific truth for the `tx-*` commands. The commands hold process; this file holds facts. `TODO:` means not filled in — a command that needs a `TODO:` section must say so rather than guess."*
 
@@ -181,6 +181,6 @@ Fix what you can, list what you cannot.
 - The file tree you wrote or changed, as paths.
 - The `TODO:`s still open, numbered — the list I need to come back and answer.
 - Anything in step 6 that failed verification.
-- One line: which of `tx-task`, `tx-review`, `tx-draft`, `tx-split`, `tx-testme` are now fully backed, and which are running on a thin section.
+- One line: which of `tx-task`, `tx-review`, `tx-pr`, `tx-split`, `tx-testme`, `tx-testing` are now fully backed, and which are running on a thin section.
 
 Do not paste the file contents. Do not commit — that is `tx-split`'s job.
