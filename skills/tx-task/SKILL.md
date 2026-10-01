@@ -42,8 +42,8 @@ Read the agent-guidance and docs for each side in scope, selected from `project.
 
 Then report back. **Concise or it does not get read.** Hard shape:
 
-- Up to 3 **concerns** — something in the requirement or my draft that will bite: wrong layer, duplicates something that exists, an error-handling pattern that fights the repo's, a schema change with no migration, state that can desync, a missing error or empty state, an interactive element with no keyboard path. One line each: the problem, then the fix you would apply.
-- Up to 3 **questions** — only ones whose answer changes the code. Give your recommended default so I can reply "yes" and move on.
+- As many **concerns** as you need — something in the requirement or my draft that will bite: wrong layer, duplicates something that exists, an error-handling pattern that fights the repo's, a schema change with no migration, state that can desync, a missing error or empty state, an interactive element with no keyboard path. One line each: the problem, then the fix you would apply.
+- As many **questions** as you need — only ones whose answer changes the code. Give your recommended default so I can reply "yes" and move on.
 - One line on **what already exists** that you will build on.
 
 No summary of my own requirement back at me. No table of options you will not pursue. If you have no concerns, say that in one line.
