@@ -1,0 +1,24 @@
+<!--
+  Release-note layout for the Google Docs HTML import. Copy it, fill it, delete these
+  comments. The import keeps headings, bold, links and inline colour; it drops <style>
+  blocks and classes, so every style is inline.
+
+  Images use data-pr + data-asset and an empty src; sign_images.py fills the src just
+  before upload. JA text is in the right-hand comments.
+
+  Labels:  New #0969da 新機能 · Changed #8250df 変更 · Fixed #1a7f37 修正
+-->
+<html>
+<head><meta charset="utf-8"></head>
+<body style="font-family: Arial, sans-serif; font-size: 11pt; color: #1f2328;">
+<h1>{{TX Retail (Autail)}} · {{PROD}} release</h1>                      <!-- · PROD リリース -->
+<p style="color: #59636e;">Released {{2026-10-23}} · {{Web 0.4.28 · API 0.4.20}}</p>   <!-- 2026-10-23 リリース -->
+<h2>What's new</h2>                                                     <!-- 変更点 -->
+
+<h3>{{What the user notices, in plain words}}</h3>
+<p><span style="color: #ffffff; background-color: {{#1a7f37}}; font-weight: bold;">&nbsp;{{Fixed}}&nbsp;</span>&nbsp; {{One plain sentence: what they see or do differently.}}</p>
+<p><img data-pr="{{289}}" data-asset="{{uuid}}" alt="{{title}}" src=""></p>
+<p style="color: #59636e; font-size: 9pt;"><a href="{{PR url}}">Details: PR #{{289}}</a></p>   <!-- 詳細: PR #289 -->
+
+</body>
+</html>

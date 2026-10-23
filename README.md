@@ -15,6 +15,7 @@ any repo that has that file.
 | `tx-testme` | Quiz you on recently changed code |
 | `tx-slack` | Recap a Slack thread |
 | `tx-nedo` | Daily entries for the NEDO effort report |
+| `tx-release-notes` | Simple EN + JA release notes for a STG/PROD deploy, as Google Docs in Drive |
 
 ## Install
 
@@ -42,7 +43,7 @@ Bump `version` in `.claude-plugin/plugin.json` when you change a skill. Restart 
 ```
 .claude-plugin/plugin.json       plugin manifest
 .claude-plugin/marketplace.json  lets this repo be added as a marketplace
-skills/<name>/SKILL.md           one folder per skill
+skills/<name>/SKILL.md           one folder per skill (scripts/ beside it when needed)
 ```
 
 Per repo, not here: `.claude/tx-shared/project.md` (facts) and `.claude/tmp/` (scratch).
