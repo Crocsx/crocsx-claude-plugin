@@ -77,7 +77,7 @@ def components_for(files, components):
 
 
 def download(url, dest):
-    req = urllib.request.Request(url, headers={"User-Agent": "tx-release-notes"})
+    req = urllib.request.Request(url, headers={"User-Agent": "tx-release"})
     with urllib.request.urlopen(req, timeout=30) as r, open(dest, "wb") as f:
         f.write(r.read())
 

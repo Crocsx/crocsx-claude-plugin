@@ -15,7 +15,8 @@ any repo that has that file.
 | `tx-testme` | Quiz you on recently changed code |
 | `tx-slack` | Recap a Slack thread |
 | `tx-nedo` | Daily entries for the NEDO effort report |
-| `tx-release-notes` | Simple EN + JA release notes for a STG/PROD deploy, as Google Docs in Drive |
+| `tx-release` | List what a STG/PROD release contains (live version → a commit); optionally EN + JA docs in Drive and a Slack announcement |
+| `tx-release-retail` | Autail release: `tx-release` plus the Autail Drive folder, regression checklist copy and release-channel post |
 
 ## Install
 

@@ -74,7 +74,7 @@ def find_manifests(args, repo_dir):
         if c and os.path.isdir(os.path.join(c, ".git")):
             run(["git", "fetch", "--quiet", "origin"], cwd=c, check=False)
             return c
-    cache = os.path.join(os.path.expanduser("~/.cache"), "tx-release-notes", "tx-manifests")
+    cache = os.path.join(os.path.expanduser("~/.cache"), "tx-release", "tx-manifests")
     if os.path.isdir(os.path.join(cache, ".git")):
         run(["git", "fetch", "--quiet", "origin"], cwd=cache, check=False)
         return cache

@@ -1,0 +1,12 @@
+{
+  "project": "tx-retail",
+  "displayName": "TX Retail (Autail)",
+  "repo": "telexistence-inc/tx-retail",
+  "components": [
+    {"label": "FE", "name": "Web", "manifestApp": "tx-autail-web", "paths": ["frontend/"],
+     "workflow": "cicd-frontend-web-deploy-manual.yaml", "versionFile": "frontend/apps/web/VERSION",
+     "locales": {"en": "frontend/apps/web/app/**/en-US.json", "ja": "frontend/apps/web/app/**/ja-JP.json"}},
+    {"label": "BE", "name": "API", "manifestApp": "tx-autail-api", "paths": ["backend/"],
+     "workflow": "cd-backend.yaml", "versionFile": "backend/VERSION"}
+  ]
+}
