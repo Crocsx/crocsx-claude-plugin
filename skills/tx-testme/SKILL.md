@@ -3,6 +3,8 @@ name: tx-testme
 description: Tests the user's ownership of recently changed code by gathering uncommitted changes or commits, then quizzing them on what changed, why it works, where things live, and what would break. Use this skill whenever the user says "test me", "quiz me on my code", "tx-testme", or wants to verify they actually understand recent changes rather than just having reviewed them passively.
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 # tx-testme
 
 Tests code ownership by gathering recent changes and quizzing the user on them — not syntax, but understanding: where things live, why decisions were made, what would break.

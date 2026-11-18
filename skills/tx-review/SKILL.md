@@ -4,6 +4,8 @@ argument-hint: <base-commit> (the commit BEFORE your first change)
 allowed-tools: Bash, Read, Grep, Glob
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 Review every change from `$1` to `HEAD`. Report only — do not fix anything unless I ask.
 
 Branch: !`git rev-parse --abbrev-ref HEAD`

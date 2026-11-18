@@ -3,6 +3,8 @@ description: Split all uncommitted work into small, logically grouped commits th
 allowed-tools: Bash, Read, Grep, Glob
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 Split everything uncommitted into a sequence of self-contained commits, each one thing a reviewer can read in isolation.
 
 Status: !`git status --porcelain`

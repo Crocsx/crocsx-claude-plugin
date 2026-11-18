@@ -45,6 +45,7 @@ Bump `version` in `.claude-plugin/plugin.json` when you change a skill. Restart 
 .claude-plugin/plugin.json       plugin manifest
 .claude-plugin/marketplace.json  lets this repo be added as a marketplace
 skills/<name>/SKILL.md           one folder per skill (scripts/ beside it when needed)
+shared/writing-style.md          ASD-STE100 rules that every skill reads before it writes
 ```
 
 Per repo, not here: `.claude/tx-shared/project.md` (facts) and `.claude/tmp/` (scratch).

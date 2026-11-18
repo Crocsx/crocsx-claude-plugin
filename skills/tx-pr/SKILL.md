@@ -4,6 +4,8 @@ argument-hint: [<base-commit>] [--draft] (empty = everything since the branch le
 allowed-tools: Bash, Read, Grep, Glob, Write
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 Open a pull request for the current branch, with a title and body that describe every change in it.
 
 Root: !`git rev-parse --show-toplevel`
@@ -57,6 +59,8 @@ Never leave the template's instructional placeholder text in the output. Drop a 
 ## 4. Writing style — this matters
 
 The PR body is read by teammates in a hurry. Write like an engineer explaining a diff to a colleague.
+
+Write the title and body in ASD-STE100 (see `shared/writing-style.md`). The rules below add to it.
 
 - Short declarative sentences. One idea per bullet, one line where it fits.
 - Say what changed and why, with concrete nouns — real file, component, endpoint, table names.

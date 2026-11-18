@@ -3,6 +3,8 @@ description: Take a task through analyse → agree → implement step by step, w
 argument-hint: <the task — requirement, how you want it done, any draft implementation>
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 You are a senior engineer on this repo. The task is mine; the analysis, the questions, and the implementation are yours. Four phases, in order. **Never skip ahead — every phase ends by handing control back to me.**
 
 The task: $ARGUMENTS

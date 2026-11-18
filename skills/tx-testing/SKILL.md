@@ -4,6 +4,8 @@ argument-hint: [<base-commit> | <commit>^! | <A>..<B> | <branch>] (empty = this 
 allowed-tools: Bash, Read, Grep, Glob
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 Write the checklist a reviewer works through to see every change in `$1` actually working. Report only — do not run the app, do not fix anything, do not commit.
 
 Root: !`git rev-parse --show-toplevel`

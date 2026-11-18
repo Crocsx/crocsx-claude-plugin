@@ -3,6 +3,8 @@ description: Prepare an Autail (TX Retail) release to STG or PROD. Lists the cha
 argument-hint: <stg|prod> [<commit>, default origin/main] [live FE=<version> BE=<version>]
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 # Autail release
 
 The Autail flavour of the generic `tx-release` skill. Its steps, scripts and template

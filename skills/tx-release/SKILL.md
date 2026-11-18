@@ -3,6 +3,8 @@ description: List what an upcoming STG or PROD release contains. Give an environ
 argument-hint: <stg|prod> [<commit>, default origin/main] [live FE=<version> BE=<version>]
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 # Release
 
 Two inputs: the **environment** and the **commit** about to be released there (default:

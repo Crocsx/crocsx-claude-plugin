@@ -3,6 +3,8 @@ description: Write NEDO UPP effort-report entries (委託業務従事日誌 / la
 argument-hint: <date range, e.g. 2026-09-01..2026-09-30>
 ---
 
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
+
 # NEDO UPP effort report
 
 The effort report is the basis for labor-cost claims. Hours are only claimable when the

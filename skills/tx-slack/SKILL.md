@@ -3,7 +3,10 @@ description: "Recap a Slack thread from a URL — extract what matters, skip the
 allowed-tools:
   - mcp__plugin_slack_slack__slack_read_thread
   - mcp__plugin_slack_slack__slack_read_user_profile
+  - Read
 ---
+
+**Writing style:** Before you write any output, read `shared/writing-style.md` at the plugin root (two folders above the base directory of this skill). Write all English output in ASD-STE100, as that file describes. Do not assume that the reader knows the topic.
 
 ## Input
 
